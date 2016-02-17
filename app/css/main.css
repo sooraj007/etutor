@@ -1,0 +1,135 @@
+body
+{
+font-family: 'Roboto', sans-serif !important;
+background: #00d2ff; 
+background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5);
+background: linear-gradient(to left, #00d2ff , #3a7bd5); 
+/*cursor: url(../images/elem/pointer1.png), auto;*/
+
+        
+}
+.container-fluid
+{
+	margin-top:20px;
+}
+
+.course 
+{
+	background-color: rgba(0,0,0,0.6);
+	height:300px;
+}
+
+.image-child img
+{
+	position:relative;
+	width:100%;
+	height:80%;
+	object-fit: cover;
+
+}
+.card-content
+{
+	text-align:center;
+
+}
+
+.footer
+{
+	width:100%;
+	position: relative;
+	height:8px;
+	background-color:#e74c3c;
+	top:0;
+}
+.logo img
+{
+	height:90px;
+}
+.tsearch input
+{
+	background-color:white !important;
+    border: 6px solid #CCCCCC;
+    border-radius : 10px !important;
+    width:90%;
+    margin-top:13px;
+    height:60px;
+    padding-left:10px !important;
+    font-size:2em !important;
+    margin-left: 30px;
+    
+}
+.tsearch .zoom
+{
+	position:absolute;
+	padding-top:10px;
+	margin-left:13px;
+	/*animation : search 2s linear infinite ;*/
+}
+@keyframes search {
+     from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(3180deg); }
+
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.lesson
+{
+	color:white;
+
+	font-size:19px;
+	position:relative;
+	top:10px;
+
+}
+
+.vjs-big-play-button
+{
+	    left: 45% !important;
+    top: 250px !important;
+}
+
+.video-js-responsive-container.vjs-hd {
+    padding-top: 56.25%;
+}
+.video-js-responsive-container.vjs-sd {
+    padding-top: 75%;
+}
+.video-js-responsive-container {
+    width: 100%;
+    position: relative;
+}
+.video-js-responsive-container .video-js {
+    height: 100% !important; 
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.vjs-playlist
+{
+	background-color:rgba(0,0,0,0.7) !important;
+
+}
+.vjs-playlist li
+{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+}
+button {
+  outline: none !important; 
+}
+:active {
+   outline:none !important;
+}
+.vjs-playlist cite
+{
+	overflow:inherit !important;
+	height:inherit !important;
+}
+.vjs-playlist-name
+{
+
+padding-top: 20px;
+font-size: large;
+}

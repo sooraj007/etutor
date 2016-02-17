@@ -1,0 +1,27 @@
+    <script>
+
+    $(document).ready(function(){
+
+        $('.search').show();
+
+    });
+
+    </script>
+<div class="row" style="margin-top:80px"  ng-repeat="rows in ldata">
+	<div class="col m3" ng-repeat="les in rows  | filter:cfilter">
+    <a ui-sref="chapter({ id: les.id })">
+    <div class="course z-depth-1">
+    	<div class="image-child">
+    		<img src="{{les.thum}}" alt="">
+    	</div>
+         <div class="footer"></div>
+    	<div class="card-content">
+    		<span class="lesson">{{les.clesson}}</span>
+    	</div>
+			
+    </div>
+   </a>
+    </div>
+    
+   
+	</div>

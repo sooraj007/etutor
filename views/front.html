@@ -1,0 +1,18 @@
+<div class="row" style="margin-top:80px"  ng-repeat="rows in cnames">
+    <div class="col m3" ng-repeat="ls in rows  | filter:cfilter">
+    <a ui-sref="course({ id: ls.id })">
+    <div class="course z-depth-1">
+        <div class="image-child">
+            <img src="{{ls.thum}}" alt="">
+        </div>
+         <div class="footer"></div>
+        <div class="card-content">
+            <span class="lesson">{{ls.cname}}</span>
+        </div>
+            
+    </div>
+   </a>
+    </div>
+    
+   
+    </div>

@@ -1,0 +1,61 @@
+<html  ng-app='app' ng-controller="hcontroller">
+	<head>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="app/css/materialize.min.css" type="text/css">
+  <link href="app/css/video-js.css" rel="stylesheet" type="text/css">
+       <link href="app/css/vid.css" rel="stylesheet" type="text/css">
+        <link href="app/css/videojs-playlist-ui.vertical.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="app/css/main.css" type="text/css">
+	<script src="app/js/jquery.js"></script>
+     <script type="text/javascript" src="app/js/video.js"></script>
+   <script src="app/js/videojs-playlist.js"></script>
+<script src="app/js/videojs-playlist-ui.js"></script>
+	<script src="app/js/angular.js"></script>
+  
+	<!-- <script src="app/js/angular-route.js"></script> -->
+	
+	<script src="app/app.js"></script>
+	<script src="app/services/myService.js"></script>
+	<script src="app/controllers/home_controller.js"></script>
+    <script src="app/js/angular-ui-route.js"></script>
+     <script src="app/routes/home-route.js"></script>
+    </head>
+	
+	<body>
+
+     
+	<div class="container-fluid">
+	<div class="row search" style="margin-top:50px">
+		<div class="col m1">
+			<div class="logo">   
+				<img src="app/images/elem/logo.svg">
+			</div>
+		</div>
+		<div class="col m11 ">
+		<div class="tsearch">
+			<input type="text" placeholder="Search Courses" ng-model="cfilter">
+			<img src="app/images/elem/search.svg" class="zoom">
+		</div>
+		</div>
+	</div>
+      <div ui-view>
+	
+    </div>
+	
+        </div>
+	</body>
+	
+</html>
+	
+
+
+
+
+
+
+
+
+
+
+
